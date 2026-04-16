@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="720" viewBox="0 0 1200 720" role="img" aria-labelledby="title desc">
+  <title id="title">Smooth Operator</title>
+  <desc id="desc">A polished warm illustration for the Smooth Operator coffee personality.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#FFF6EC"/>
+      <stop offset="100%" stop-color="#F6B96D"/>
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="720" fill="url(#bg)"/>
+  <circle cx="1040" cy="120" r="100" fill="#FFFFFF" opacity="0.45"/>
+  <circle cx="120" cy="620" r="160" fill="#C96A4D" opacity="0.08"/>
+  <text x="90" y="150" font-family="Segoe UI, Arial, sans-serif" font-size="42" font-weight="700" fill="#5A392A">Smooth Operator</text>
+  <text x="90" y="205" font-family="Segoe UI, Arial, sans-serif" font-size="24" fill="#7D5A49">Balanced, polished, and quietly excellent.</text>
+  <text x="90" y="435" font-family="Segoe UI Emoji, Segoe UI, Arial, sans-serif" font-size="220">🌤️</text>
+  <text x="350" y="410" font-family="Segoe UI, Arial, sans-serif" font-size="58" font-weight="700" fill="#5A392A">Your coffee always lands just right</text>
+  <text x="350" y="470" font-family="Segoe UI, Arial, sans-serif" font-size="28" fill="#7D5A49">Refined, dependable, and easy to love.</text>
+</svg>

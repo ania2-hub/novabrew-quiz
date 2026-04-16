@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="720" viewBox="0 0 1200 720" role="img" aria-labelledby="title desc">
+  <title id="title">Bold Explorer</title>
+  <desc id="desc">A dramatic warm-toned illustration for the Bold Explorer coffee personality.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#2E140D"/>
+      <stop offset="100%" stop-color="#C96A4D"/>
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="720" fill="url(#bg)"/>
+  <circle cx="980" cy="140" r="110" fill="#F6B96D" opacity="0.35"/>
+  <circle cx="220" cy="640" r="170" fill="#FFD5B8" opacity="0.12"/>
+  <text x="90" y="150" font-family="Segoe UI, Arial, sans-serif" font-size="42" font-weight="700" fill="#FFEBDD">Bold Explorer</text>
+  <text x="90" y="205" font-family="Segoe UI, Arial, sans-serif" font-size="24" fill="#FFD5B8">Intensity, momentum, and strong flavor.</text>
+  <text x="90" y="435" font-family="Segoe UI Emoji, Segoe UI, Arial, sans-serif" font-size="220">🔥</text>
+  <text x="350" y="410" font-family="Segoe UI, Arial, sans-serif" font-size="58" font-weight="700" fill="#FFF7EF">Built for bold mornings</text>
+  <text x="350" y="470" font-family="Segoe UI, Arial, sans-serif" font-size="28" fill="#FFE2CF">Dark roasts, dramatic energy, unforgettable cups.</text>
+</svg>
