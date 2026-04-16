@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>NovaBrew Style Preview - Bold</title>
+  <style>
+    :root {
+      --bg: #120d09;
+      --panel: #211710;
+      --text: #f6ead8;
+      --muted: #d7c3a4;
+      --accent: #f0b45a;
+      --accent-dark: #5c3c14;
+      --border: rgba(240, 180, 90, 0.22);
+    }
+
+    * { box-sizing: border-box; }
+
+    body {
+      margin: 0;
+      min-height: 100vh;
+      display: grid;
+      place-items: center;
+      padding: 24px;
+      color: var(--text);
+      font-family: Georgia, "Times New Roman", serif;
+      background:
+        radial-gradient(circle at top, rgba(240, 180, 90, 0.18), transparent 34%),
+        linear-gradient(160deg, #080604 0%, var(--bg) 100%);
+    }
+
+    .card {
+      width: min(780px, 100%);
+      background: linear-gradient(180deg, rgba(40, 29, 20, 0.96), rgba(24, 17, 12, 0.98));
+      border: 1px solid var(--border);
+      border-radius: 30px;
+      padding: 42px;
+      box-shadow: 0 24px 70px rgba(0, 0, 0, 0.5);
+    }
+
+    .eyebrow {
+      color: var(--accent);
+      text-transform: uppercase;
+      letter-spacing: 0.18em;
+      font-size: 12px;
+      margin-bottom: 18px;
+    }
+
+    h1 {
+      margin: 0 0 14px;
+      font-size: clamp(30px, 5vw, 48px);
+      line-height: 1;
+      font-weight: 700;
+    }
+
+    p {
+      margin: 0 0 28px;
+      font-family: "Segoe UI", Arial, sans-serif;
+      color: var(--muted);
+      font-size: 17px;
+      line-height: 1.6;
+      max-width: 600px;
+    }
+
+    .answers {
+      display: grid;
+      gap: 14px;
+    }
+
+    .answer {
+      padding: 18px 20px;
+      border: 1px solid var(--border);
+      border-radius: 18px;
+      background: rgba(255, 255, 255, 0.02);
+      transition: transform 160ms ease, border-color 160ms ease, background 160ms ease;
+      cursor: pointer;
+    }
+
+    .answer:hover {
+      transform: translateY(-2px);
+      border-color: var(--accent);
+      background: rgba(240, 180, 90, 0.08);
+    }
+
+    .answer strong {
+      display: block;
+      margin-bottom: 6px;
+      font-size: 18px;
+    }
+
+    .answer span {
+      font-family: "Segoe UI", Arial, sans-serif;
+      color: var(--muted);
+      font-size: 14px;
+    }
+  </style>
+</head>
+<body>
+  <main class="card">
+    <div class="eyebrow">Bold Preview</div>
+    <h1>Pick the coffee ritual that feels most like you.</h1>
+    <p>This direction feels premium, dramatic, and high-confidence. It gives the quiz more presence and a stronger luxury signal.</p>
+    <section class="answers">
+      <div class="answer">
+        <strong>An espresso shot that wakes up the whole room</strong>
+        <span>Intensity first. No apologies.</span>
+      </div>
+      <div class="answer">
+        <strong>A polished brunch table with one perfect mug</strong>
+        <span>Balanced taste, effortless style.</span>
+      </div>
+      <div class="answer">
+        <strong>A cozy corner, rain outside, and your favorite playlist</strong>
+        <span>Comfort is the whole point.</span>
+      </div>
+      <div class="answer">
+        <strong>A tasting flight of something rare and surprising</strong>
+        <span>You want the story, the thrill, and the unexpected.</span>
+      </div>
+    </section>
+  </main>
+</body>
+</html>

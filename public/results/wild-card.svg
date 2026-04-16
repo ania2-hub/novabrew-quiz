@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="720" viewBox="0 0 1200 720" role="img" aria-labelledby="title desc">
+  <title id="title">Wild Card</title>
+  <desc id="desc">An expressive illustration for the Wild Card coffee personality.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#FFF6F3"/>
+      <stop offset="100%" stop-color="#7C3F54"/>
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="720" fill="url(#bg)"/>
+  <circle cx="1030" cy="150" r="120" fill="#F6B96D" opacity="0.25"/>
+  <circle cx="200" cy="610" r="170" fill="#FFFFFF" opacity="0.1"/>
+  <text x="90" y="150" font-family="Segoe UI, Arial, sans-serif" font-size="42" font-weight="700" fill="#FFF2EB">Wild Card</text>
+  <text x="90" y="205" font-family="Segoe UI, Arial, sans-serif" font-size="24" fill="#FFE4D7">Unexpected, curious, and impossible to bore.</text>
+  <text x="90" y="435" font-family="Segoe UI Emoji, Segoe UI, Arial, sans-serif" font-size="220">🎨</text>
+  <text x="350" y="410" font-family="Segoe UI, Arial, sans-serif" font-size="58" font-weight="700" fill="#FFF7EF">You want the off-menu story</text>
+  <text x="350" y="470" font-family="Segoe UI, Arial, sans-serif" font-size="28" fill="#FFE4D7">Surprising coffees, strange micro-lots, and good chaos.</text>
+</svg>

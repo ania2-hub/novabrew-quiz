@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="720" viewBox="0 0 1200 720" role="img" aria-labelledby="title desc">
+  <title id="title">Cozy Classic</title>
+  <desc id="desc">A soft comforting illustration for the Cozy Classic coffee personality.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#FFF9F2"/>
+      <stop offset="100%" stop-color="#FFD5B8"/>
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="720" fill="url(#bg)"/>
+  <circle cx="1020" cy="140" r="120" fill="#FFFFFF" opacity="0.45"/>
+  <circle cx="200" cy="620" r="170" fill="#C96A4D" opacity="0.08"/>
+  <text x="90" y="150" font-family="Segoe UI, Arial, sans-serif" font-size="42" font-weight="700" fill="#5A392A">Cozy Classic</text>
+  <text x="90" y="205" font-family="Segoe UI, Arial, sans-serif" font-size="24" fill="#7D5A49">Warm, familiar, and comfort-first.</text>
+  <text x="90" y="435" font-family="Segoe UI Emoji, Segoe UI, Arial, sans-serif" font-size="220">📚</text>
+  <text x="350" y="410" font-family="Segoe UI, Arial, sans-serif" font-size="58" font-weight="700" fill="#5A392A">Soft mornings, strong ritual</text>
+  <text x="350" y="470" font-family="Segoe UI, Arial, sans-serif" font-size="28" fill="#7D5A49">The coffee version of a favorite sweater.</text>
+</svg>

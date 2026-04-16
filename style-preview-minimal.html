@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>NovaBrew Style Preview - Minimal</title>
+  <style>
+    :root {
+      --bg: #f5f1ea;
+      --panel: #fffdf9;
+      --text: #2b241d;
+      --muted: #7f6f61;
+      --accent: #8c6a4a;
+      --accent-soft: #e7d9c8;
+      --border: #e8dfd5;
+    }
+
+    * { box-sizing: border-box; }
+
+    body {
+      margin: 0;
+      min-height: 100vh;
+      display: grid;
+      place-items: center;
+      padding: 24px;
+      font-family: "Segoe UI", Arial, sans-serif;
+      color: var(--text);
+      background:
+        radial-gradient(circle at top left, #ffffff 0%, transparent 36%),
+        linear-gradient(180deg, #f8f5ef 0%, var(--bg) 100%);
+    }
+
+    .card {
+      width: min(760px, 100%);
+      background: rgba(255, 253, 249, 0.92);
+      border: 1px solid var(--border);
+      border-radius: 28px;
+      padding: 40px;
+      box-shadow: 0 20px 60px rgba(69, 47, 26, 0.08);
+      backdrop-filter: blur(8px);
+    }
+
+    .eyebrow {
+      display: inline-block;
+      padding: 8px 14px;
+      border-radius: 999px;
+      background: var(--accent-soft);
+      color: var(--accent);
+      font-size: 12px;
+      letter-spacing: 0.12em;
+      text-transform: uppercase;
+      margin-bottom: 18px;
+    }
+
+    h1 {
+      margin: 0 0 10px;
+      font-size: clamp(28px, 5vw, 42px);
+      line-height: 1.06;
+      font-weight: 700;
+    }
+
+    p {
+      margin: 0 0 28px;
+      color: var(--muted);
+      font-size: 17px;
+      line-height: 1.65;
+    }
+
+    .answers {
+      display: grid;
+      gap: 14px;
+    }
+
+    .answer {
+      padding: 18px 20px;
+      border-radius: 18px;
+      border: 1px solid var(--border);
+      background: #fff;
+      transition: transform 160ms ease, border-color 160ms ease, box-shadow 160ms ease;
+      cursor: pointer;
+    }
+
+    .answer:hover {
+      transform: translateY(-2px);
+      border-color: var(--accent);
+      box-shadow: 0 14px 30px rgba(69, 47, 26, 0.08);
+    }
+
+    .answer strong {
+      display: block;
+      margin-bottom: 4px;
+      font-size: 16px;
+    }
+
+    .answer span {
+      color: var(--muted);
+      font-size: 14px;
+    }
+  </style>
+</head>
+<body>
+  <main class="card">
+    <div class="eyebrow">Minimal Preview</div>
+    <h1>Your perfect Saturday morning starts with...</h1>
+    <p>A clean, airy layout with muted coffeehouse tones. This direction feels premium, modern, and quietly confident.</p>
+    <section class="answers">
+      <div class="answer">
+        <strong>A slow pour-over and a sunlit kitchen</strong>
+        <span>Bright, intentional, and design-forward</span>
+      </div>
+      <div class="answer">
+        <strong>A dependable mug and your usual routine</strong>
+        <span>Balanced, polished, and easy to love</span>
+      </div>
+      <div class="answer">
+        <strong>A blanket, a book, and something warm</strong>
+        <span>Cozy, calm, and comfort-first</span>
+      </div>
+      <div class="answer">
+        <strong>A new neighborhood cafe you have never tried</strong>
+        <span>Curious, adventurous, and open to surprise</span>
+      </div>
+    </section>
+  </main>
+</body>
+</html>
