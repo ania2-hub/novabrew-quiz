@@ -1,2 +1,2 @@
-:HL["/novabrew-quiz/_next/static/chunks/0l61v7fzyrk.p.css","style"]
-0:{"tree":{"name":"","param":null,"prefetchHints":16,"slots":{"children":{"name":"/_not-found","param":null,"prefetchHints":0,"slots":{"children":{"name":"__PAGE__","param":null,"prefetchHints":0,"slots":null}}}}},"staleTime":300,"buildId":"tbEBG5kf-YIzemSI4w63f"}
+:HL["/novabrew-quiz/_next/static/chunks/050rle2x9yn90.css","style"]
+0:{"tree":{"name":"","param":null,"prefetchHints":16,"slots":{"children":{"name":"/_not-found","param":null,"prefetchHints":0,"slots":{"children":{"name":"__PAGE__","param":null,"prefetchHints":0,"slots":null}}}}},"staleTime":300,"buildId":"-MPOkfamgYhO7d4oqJVTi"}

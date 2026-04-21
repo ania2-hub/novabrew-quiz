@@ -187,6 +187,9 @@ export default function Home() {
                     into a personalized coffee match. Seven questions. Six personalities. One
                     highly shareable result.
                   </p>
+                  <p className="text-sm font-semibold uppercase tracking-[0.22em] text-[#7c3f54]">
+                    Live demo ready to share with customers.
+                  </p>
                 </div>
 
                 <div className="grid gap-4 md:grid-cols-3">
